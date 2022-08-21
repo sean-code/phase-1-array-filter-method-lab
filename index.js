@@ -6,6 +6,6 @@ const drivers = ['Tony', 'Hemsworth', 'Gallows', 'Epps', 'Kevin', 'Latimore']
 const findMatching = (p,q) => p.filter(p => p.toLowerCase() === q.toLowerCase())
 
 //matchName
-const matchName = (p,q) => p.filter(p => p.name == q)
+const matchName = (p,q) => p.filter(p => p.name === q)
 //fuzzyMatch
 const fuzzyMatch = (p,q) => p.filter(p => p.charAt(0) === q.charAt(0))
